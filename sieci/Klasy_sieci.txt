@@ -1,0 +1,9 @@
+Klasy IP:
+Klasa A -> od 0.0.0.0 do 127.255.255.255
+Klasa B -> od 128.0.0.0 do 224.255.255.255
+Klasa C -> od 192.0.0.0 do 224.0.0.0
+
+Sieci prywatne:
+Klasa A -> 10.0.0.0 / 8
+Klasa B -> 172.16.0.0 / 12
+Klasa C -> 192.168.0.0 / 16
