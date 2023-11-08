@@ -1,0 +1,46 @@
+1. Definicja Kanban -  układ nerwowy sterowania produkcją w koncepcji Lean Manufacturing. Ma to zapewnić 
+ciągłość produkcji unikając zbędnych czynności.
+
+2. Geneza Kanban (kan bahn)- Kan – znak, Ban – kartka, tablica. To połączenie japońskich słów, które 
+oznacza wizualizację przepływu informacji w przestrzeni produkcyjnej.
+
+3. Zasady Kanban - zasady zarządzania zmianą - wypisać i krótko opisać
+- Wizualizacja procesu: Wszystkie zadania, procesy lub etapy są wizualnie przedstawiane na tablicy Kanban. 
+- Ograniczenie prac w toku: Każda kolumna na tablicy ma określony limit prac w toku. 
+- Zarządzanie przepływem pracy: Każde zadanie przemieszcza się przez tablicę Kanban od etapu początkowego 
+do końcowego.
+- Zasada "Pull," czyli "ciągnięcia" pracy: Zadania nie są przypisywane pracownikom, ale to pracownicy 
+decydują, kiedy i co zaczną wykonywać.
+- Kontrola procesu i ulepszanie ciągłe: Zasada Kanban opiera się na monitorowaniu i analizowaniu procesu. 
+Zespoły regularnie przeglądają swoje wyniki, identyfikują potencjalne problemy i wprowadzają ulepszenia.
+- Szacowanie czasu i efektywności: Kanban pozwala na mierzenie czasu potrzebnego do ukończenia każdego 
+zadania.
+
+4. Zasady Kanban - zasady dostarczania usług - wypisać i krótko opisać
+W praktyce, zasady Kanban w dostarczaniu usług pomagają zespołom zachować kontrolę nad procesem, 
+minimalizować opóźnienia i dostarczać usługi zgodnie z oczekiwaniami klientów.
+
+5. Kadencje w Kanban (pętle zwrotne)
+Kadencje w Kanban odnoszą się do określonych okresów czasu, w których zespół wykonuje określone zadania lub 
+dostarcza usługi. Kadencje są istotne w procesie Kanban, ponieważ pomagają zespołom monitorować postęp.
+
+6. Role
+- Kierownik Produktu (Product Owner)
+- Lider Zespołu (Team Lead)
+- Członek Zespołu (Team Member)
+- Zarządca Projektu (Project Manager)
+- Mistrz Kanban (Kanban Master)
+- Klient (Customer)
+- Nadzorowanie (Stakeholder)
+
+7. Metryki
+Metryki w systemie Kanban są narzędziem pomiaru wydajności i efektywności procesu dostarczania usług. 
+Pozwalają na monitorowanie i doskonalenie procesu dostarczania usług. Są używane do identyfikacji obszarów 
+wymagających optymalizacji i poprawy wydajności zespołu.
+
+8. Wizualizacja (tablica i karta)
+W Kanban wizualizacja odgrywa kluczową rolę. Dwa główne elementy wizualizacji w Kanban to tablica Kanban i 
+karty Kanban. Na tablica Kanban przedstawiony jest cały proces dostarczania usług. Jest podzielona na kolumny, 
+które reprezentują etapy procesu. Karty są umieszczane na tablicy w odpowiednich kolumnach, aby odzwierciedlić, 
+w jakim stanie znajduje się każde zadanie. Każda karta zawiera informacje dotyczące zadania, takie jak nazwa, 
+opis, termin wykonania, przypisanej osobie itp
