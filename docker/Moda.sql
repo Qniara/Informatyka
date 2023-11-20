@@ -2,8 +2,13 @@ drop database if exists Moda;
 
 create database Moda;
 
+----------------------------------------
+
 use Moda;
+
 drop table if exists Stroj;
+drop table if exists Materialy;
+drop table if exists Kreacja;
 
 CREATE TABLE Stroj (
     idStroj INT PRIMARY KEY AUTO_INCREMENT,
@@ -32,4 +37,7 @@ CREATE TABLE Kreacja (
     dataUtworzenia DATE
 );
 
+----------------------------------
 
+insert into Stroj("Wieczorowy", "2023-11-20", "2023-12-20", "T19", "Bartosz");
+insert into Stroj VALUES(null, "Skejtowy", "2023-11-23", "2023-12-24", "Skejpark", "Wojtek");
