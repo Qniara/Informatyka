@@ -1,0 +1,11 @@
+Grupowanie: (creditcard z AW)
+
+1. Policz ile jest wszystkich kart
+SELECT COUNT(creditcard.CreditCardID) 
+FROM creditcard
+
+2. Policz ile kart wygasa w 2008 roku
+3. Policz ile kard wygasa w 2008 roku w październiku
+4. Policz ilość kart Vista
+5. Stwórz zostawienie ilości kart (po CardType) wygasających w styczniu
+6. Wypisz 3 najliczniejsze miesiące kiedy wygasają karty Vista w 2007 roku.
