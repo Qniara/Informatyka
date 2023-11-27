@@ -33,4 +33,5 @@ SELECT creditcard.ExpMonth, COUNT(creditcard.CreditCardID) AS ilosc_kart
 FROM creditcard
 WHERE creditcard.ExpYear=2007
 GROUP BY creditcard.ExpMonth 
+ORDER BY ilosc_kart desc
 LIMIT 3;
