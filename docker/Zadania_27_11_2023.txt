@@ -31,5 +31,6 @@ GROUP BY creditcard.CardType;
 6. Wypisz 3 najliczniejsze miesiące kiedy wygasają karty Vista w 2007 roku.
 SELECT creditcard.ExpMonth, COUNT(creditcard.CreditCardID) AS ilosc_kart
 FROM creditcard
+WHERE creditcard.ExpYear=2007
 GROUP BY creditcard.ExpMonth 
 LIMIT 3;
