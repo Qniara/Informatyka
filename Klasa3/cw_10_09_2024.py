@@ -1,44 +1,33 @@
 # Zad.1
-#def CzyPierwsza(n):
+#def CzyParzysta(n):
 #    return n%2==0
 #n=int(input("Podaj liczbe: "))
-#if CzyPierwsza(n)==0:
+#if CzyParzysta(n)==0:
 #    print("tak")
 #else:
 #    print("nie")
 
 # Zad.2
-#def dzielnik(n):
-#    if n%2==0:
-#        return n
-#    else:
-#        return 0
-#n = int(input("Podaj liczbe: "))
+
+#Wersja 1
+#n=int(input("Podaj liczbe: "))
 #for i in range(1,n):
-#    print(dzielnik(i, " "))
+#    if n%i==0:
+#        print(n, end=" ")
 
 # Zad.3
-#def dzielnik(n):
-#    if n%2==0:
-#        return n
-#    else:
-#        return 0
-#n = int(input("Podaj liczbe: "))
+#n= int(input("Podaj liczbe: "))
 #suma=0
 #for i in range(1,n):
-#    suma= suma+ dzielnik(i)
-#print(suma)
+#    if n%i==0:
+#        suma=suma+i
+#print("Suma dzielnikow podanej liczby to ", i)
 
 # Zad.4
-#def dzielnik(n):
-#    if n%2==0:
-        #return true
-        #    else:
-#        return false
 #suma=0
 #n=int(input("Liczba: "))
 #for i in range(n):
-#    if dzielnik(n)==true:
+#    if n%i==0:
 #        suma+=1
 #print(suma)
 
@@ -48,10 +37,10 @@
 #        if n%i==0:
 #            return false
 #    return true
-#n = int(input("Dzielniki: "))
+#n = int(input("Podaj liczbe: "))
 #for i in range(2,n+1):
 #    if n%i==0:
-#        if pierwsza(i)==false:
+#        if pierwsza(i)==true:
 #            print(i, end=" ")
 
 # Zad. 6
@@ -73,3 +62,29 @@
 #           print("tak")
 #        else:
 #           print("nie")
+
+# Zad.7
+#n=int(input("Podaj liczbe: "))
+#suma=0
+#for i in range(1,n):
+#    if n%i==0:
+#        suma=suma+i
+#if suma==n:
+#    print("Liczba jest doskonala")
+#else:
+#    print("Liczba nie jest doskonala")
+
+# Zad.8
+#def sumaDzielnikow(n):
+#    for i in range(1,n):
+#        if n%i==0:
+#            suma=suma+i
+#    return suma
+#a= int(input("Podaj liczbe: "))
+#b= int(input("Podaj liczbe: "))
+#sumaA=sumaDzielnikow(a)
+#sumaB=sumaDzielnikow(b)
+#if a!=b and sumaA==b and sumaB==a:
+#    print("tak")
+#else:
+#    print("nie")
