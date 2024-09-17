@@ -81,3 +81,38 @@
 #     print("TAK")
 # else:
 #     print("NIE")
+
+# Zad. 5 znowu dupa kupa pupa
+# def SumaCyfr(n):
+#     suma=0
+#     while n>0:
+#         suma=suma+n%10
+#         n=n//10
+#     return suma
+# 
+#
+# def SumaCyfrCzynnikow(n):
+#     czynnik = 2
+#     suma=0
+#     sumaCyfrczynnikow = 0
+#     while n > 0:
+#         while n % czynnik == 0
+#             print(czynnik)
+#             suma += SumaCyfr(czynnik)
+#             n = n // czynnik
+#         czynnik += 1
+#     return suma
+#
+#
+# def CzyPierwsza(n):
+#     for i in range(2,n):
+#         if n % i==0:
+#             return 0
+#     return 1
+#
+#
+# n = int(input("daj liczbe: "))
+# if CzyPierwsza(n)==0 and SumaCyfr(n)==SumaCyfrCzynnikow(n):
+#     print(tak)
+# else:
+#     print("nie")
