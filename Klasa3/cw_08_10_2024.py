@@ -24,9 +24,25 @@ def CzyNiemalejacy(T,n):
             return False
     return True
 
-T = list(map(int,input("Podaj ciag: ").split()))
-a=int(input("Podaj a: "))
-if CzyNiemalejacy(T,len(T)):
-    print(Wyszukiwanie_Binarne_rek(T,a,0,len(T)-1))
-else:
-    print("Ciag musi by uporzadkowany malejaca")
+# T = list(map(int,input("Podaj ciag: ").split()))
+# a=int(input("Podaj a: "))
+# if CzyNiemalejacy(T,len(T)):
+#     print(Wyszukiwanie_Binarne_rek(T,a,0,len(T)-1))
+# else:
+#     print("Ciag musi by uporzadkowany malejaca")
+
+# Zad.3
+# plik=open("ciagi.txt")
+# ciagi=list(plik.read().split("\n"))
+# plik.close()
+# for i in ciagi:
+#     for j in range(len(i)):
+#         if(i[j]=="10"):
+#             print(i)
+#             break
+
+# Zad.4
+# plik=open("ciagi2.txt")
+# ciagi=list(plik.read().split("\n"))
+# plik.close()
+# liczba_ciagow=ciagi[0]
