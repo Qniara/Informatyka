@@ -42,7 +42,31 @@ def CzyNiemalejacy(T,n):
 #             break
 
 # Zad.4
-# plik=open("ciagi2.txt")
-# ciagi=list(plik.read().split("\n"))
-# plik.close()
-# liczba_ciagow=ciagi[0]
+# def przetwarzaj_pliki(nazwa_pliku):
+#     with open(nazwa_pliku, 'r') as plik:
+#         liczba_ciagow = int(plik.readline().strip())
+        
+#         for _ in range(liczba_ciagow):
+#             liczba_elementow = int(plik.readline().strip())
+#             ciag = list(map(int, plik.readline().strip().split()))
+#             ciag.sort()
+#             if Wyszukiwanie_Binarne(ciag, 10):
+#                 print("Ciąg zawierający liczbę 10:", ciag)
+# przetwarzaj_pliki('ciagi2.txt')
+
+# Zad.5
+# Funkcja wyszukiwanie_binarne(T, a, n):
+#     lewy ← 1      
+#     prawy ← n           
+#     dopóki lewy ≤ prawy wykonuj:
+#         srodek ← (lewy + prawy) div 2
+
+#         jeżeli T[srodek] = a to:
+#             zwróć Prawda
+#         w przeciwnym razie jeżeli T[srodek] < a to:
+#             lewy ← srodek + 1   
+#         w przeciwnym razie:      
+#             prawy ← srodek - 1   
+
+#     zwróć Fałsz                      
+
