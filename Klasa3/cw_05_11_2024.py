@@ -66,5 +66,21 @@ def sortowanie_przez_scalanie(t):
 # liczby2=sortowanie_przez_scalanie(liczby)
 # print(liczby2)
 
+# Zad.2
+# plik = open("ciagi.txt", "r")
+# ciag1 = plik.readline()
+# ciag1 = list(map(int, ciag1.split()))
+# print(ciag1)
+# ciag2 = plik.readline()
+# ciag2 = list(map(int, ciag2.split()))
+# print(ciag2)
+# plik.close()
+# wynik = scal2(ciag1, ciag2)
+# plik = open("wyniki_2.txt", "w")
 
-
+# Zad.3
+# import random
+# liczby = [random.randint(1,1000000) for i in range( 1000)]
+# liczby = sortowanie_przez_scalanie(liczby)
+# with open("wyniki_3.txt", "w")as plik:
+#     for e in range()
