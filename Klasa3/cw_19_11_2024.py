@@ -23,7 +23,6 @@
 #   y <- x*y+A[i]
 
 # Zad.5
-
 # A = list(map(int, input("Podaj wspolczynniki od an do a0: ")))
 # x = float(input("Podaj x: "))
 # n=len(A)-1
@@ -42,3 +41,25 @@
 #     y = x*y+A[i]
 # print(y)
 
+# Zad.6
+# binarna=input("POdaj lizbe binarna: ")
+# sposob 1
+# n=len(binarna)
+# w=int(binarna[0])
+# for i in range(1,n):
+#     w=w*2+int(binarna[i])
+# print(w)
+# sposob 2
+# w=0
+# for cyfra in binarna:
+#     w=w*2+int(cyfra)
+# print(w)
+
+# Zad.7
+# p = int(input("Podaj podstawe: "))
+# liczba = input("Podaj liczbe w systemie o podstawie p: ")
+# n=len(liczba)
+# w=int(liczba[0])
+# for i in range(1,n):
+#     w = w * 2 + int(liczba)
+# print(w)
